@@ -1,0 +1,12 @@
+{
+  "type" : "record",
+  "name" : "Account",
+  "namespace": "com.example.account",
+  "fields" : [
+    {"name":  "id", "type" : "long"},
+    {"name" : "firstName", "type" :  "string"},
+    {"name" : "lastName", "type" :  "string"},
+    {"name" : "address", "type":  "string"},
+    {"name" : "phone", "type" :  "string"}
+  ]
+}
