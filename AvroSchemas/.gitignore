@@ -1,0 +1,6 @@
+# Ignore all Maven build files
+target/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml

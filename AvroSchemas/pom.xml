@@ -30,7 +30,7 @@
                         </goals>
                         <configuration>
                             <sourceDirectory>${project.basedir}/src/main/avro</sourceDirectory>
-                            <outputDirectory>${project.basedir}/src/generated-sources/java</outputDirectory>
+                            <outputDirectory>${project.basedir}/target/generated-sources/avro</outputDirectory>
                         </configuration>
                     </execution>
                 </executions>
