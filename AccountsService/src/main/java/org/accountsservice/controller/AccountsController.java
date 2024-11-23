@@ -22,7 +22,7 @@ public class AccountsController {
     }
 
     @GetMapping("/pets")
-    public Mono<String> testCommunication() throws InterruptedException, TimeoutException, MemcachedException {
+    public Mono<String> testCommunication() {
         return accountService.getDataFromServicePet();
     }
 
